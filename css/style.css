@@ -1,1 +1,79 @@
+body {
+  padding: 20px 0px 10px 0px;
+  font-family: "Cabin", sans-serif;
+  color: white;
+}
 
+a {
+  color: #ffacac;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  background-color: #cc1515;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#subheading {
+  margin-bottom: 20px;
+}
+
+#image {
+  margin-bottom: 10px;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quote {
+  margin-bottom: 15px;
+}
+
+#intro {
+  margin-bottom: 15px;
+}
+
+/* Make the side photos the same size on larger screens */
+.side-image {
+  width: 700px;
+  margin-bottom: 6px;
+}
+
+/* @media rules to make some text smaller and to lose white border and rounded container corners at smaller screen widths */
+@media screen and (max-width: 575px) {
+  #subheading {
+    font-size: 20px;
+  }
+
+  #quote {
+    font-size: 22px;
+  }
+
+  #intro {
+    font-size: 18px;
+  }
+
+  #footer {
+    font-size: 22px;
+  }
+
+  body {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .container {
+    border-radius: 0px;
+  }
+}
+
+/* media rules to make list items align with photos at very large screen widths */
+@media screen and (min-width: 1200px) {
+  li {
+    font-size: 19px;
+  }
+}
