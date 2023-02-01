@@ -4,10 +4,12 @@ body {
   color: white;
 }
 
+/* Styling for links */
 a {
   color: #ffacac;
 }
 
+/* Styling for links when hovered over */
 a:hover {
   color: white;
 }
