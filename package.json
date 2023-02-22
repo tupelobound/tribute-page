@@ -1,0 +1,26 @@
+{
+  "name": "tribute-page",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Responsive Web Design project - Build a Tribute Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tupelobound/tribute-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tupelobound/tribute-page/issues"
+  },
+  "homepage": "https://github.com/tupelobound/tribute-page#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
